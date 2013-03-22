@@ -4,6 +4,8 @@ Tags: text replace, text, regex
 Requires at least: 3.0.
 Tested up to: 3.5.1
 Stable tag: 0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Applies regular expressions to text and/or title of posts and pages to dinamically replace text before saving to DB.
 
