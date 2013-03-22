@@ -11,7 +11,7 @@ Applies regular expressions to text and/or title of posts and pages to dinamical
 
 Applies regular expressions to text and/or title of posts and pages to dinamically replace text before saving to DB.
 Useful for blacklist management and sites with auto generated content. Works fine with autoblog pugins.
-Just Activate the plugin and set options in Settings > Text replace meny.
+Just Activate the plugin and set options in Settings > Text replace menu.
 
 == Installation ==
 
@@ -20,7 +20,21 @@ Just Activate the plugin and set options in Settings > Text replace meny.
 
 == Frequently Asked Questions ==
 
+= A question that someone might have =
+
+An answer to that question.
+
+= Where do I configure the plugin?? =
+
+Simple Text Replace settings page is in Settings > Text replace.
+
+= How can I donate? =
+
+Donate Link is in wp-admin in Simple Text Replace settings page (Settings > Text replace menu)
+
 == Screenshots ==
+
+1. Simple Text Replace config page
 
 == Changelog ==
 
