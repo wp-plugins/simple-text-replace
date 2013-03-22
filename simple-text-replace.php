@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Simple Text Replace
-Plugin URI: 
+Plugin URI: http://wordpress.org/extend/plugins/simple-text-replace/
 Description: Applies regular expressions to text and/or title of posts and pages to dinamically replace text before saving to DB. Useful for blacklist management and sites with auto generated content. Works fine with autoblog pugins.
 Version: 1.1
 Author: dBen

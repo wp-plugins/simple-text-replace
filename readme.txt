@@ -40,5 +40,8 @@ Donate Link is in wp-admin in Simple Text Replace settings page (Settings > Text
 
 == Changelog ==
 
+= 1.1 =
+* Readme.txt and info updated
+
 = 1.0 =
 * First Release
