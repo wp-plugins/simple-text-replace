@@ -1,0 +1,6 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Text Replace 1.0\n"
+
+msgid "Simple Text Replace Settings"
+msgstr ""
