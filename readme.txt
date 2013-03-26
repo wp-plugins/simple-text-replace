@@ -22,10 +22,6 @@ Just Activate the plugin and set options in Settings > Text replace menu.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
-
-An answer to that question.
-
 = Where do I configure the plugin?? =
 
 Simple Text Replace settings page is in Settings > Text replace.
@@ -39,6 +35,9 @@ Donate Link is in wp-admin in Simple Text Replace settings page (Settings > Text
 1. Simple Text Replace config page
 
 == Changelog ==
+
+= 1.2 =
+* Fixed issue on slug replacement
 
 = 1.1 =
 * Readme.txt and info updated
