@@ -36,6 +36,9 @@ Donate Link is in wp-admin in Simple Text Replace settings page (Settings > Text
 
 == Changelog ==
 
+= 1.3 =
+* Minor bugfix on slug replacement
+
 = 1.2 =
 * Fixed issue on slug replacement
 

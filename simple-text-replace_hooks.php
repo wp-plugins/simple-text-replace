@@ -14,16 +14,7 @@
 			$post['post_title'] = apply_regex_option($post['post_title'], 'title', '09');
 			$post['post_title'] = apply_regex_option($post['post_title'], 'title', '10');
 
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '01');
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '02');
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '03');
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '04');
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '05');
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '06');
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '07');
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '08');
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '09');
-			$post['post_name'] = apply_regex_option($post['post_name'], 'title', '10');
+	        $post['post_name'] = sanitize_title($post['post_title']);
 		}
 		
 		if(get_option('str_content_enabled')){
