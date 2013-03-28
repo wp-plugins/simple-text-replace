@@ -1,0 +1,130 @@
+.input_section{
+	border:1px solid #ddd;
+	border-bottom:0;
+	background:#fcfcfc;
+	border-radius: 3px 3px 3px 3px;
+	margin-bottom: 30px;
+}
+.option_input p.header{
+	font-size:12px;
+	font-weight:700;
+	width:15%;
+	display:block;
+	float:left;
+	padding:0;
+	margin:0;
+}
+
+.option_input p.content{
+	font-size:12px;
+	width:85%;
+	display:block;
+	float:right;
+	padding:0 0 6px 0;
+	margin:0;
+}
+
+.option_input {
+	padding:10px 10px;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #fff;
+}
+.option_input small{
+	display:block;
+	float: left;
+	color:#555555;
+}
+
+
+.option_input input[type="checkbox"]{
+	float: left;
+	margin: 0 .5em 0 0;
+}
+
+
+.input_title h3 {
+	color: #21759b;
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	text-align: left;
+	line-height: 1.3em;
+	font-size: 14px;
+	font-weight: normal;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-shadow: rgba(255,255,255,0.8) 0 1px 0;
+	
+}
+.input_title{
+	margin: 0;
+	padding: 7px 10px;
+	border-bottom:1px solid #DFDFDF;
+	box-shadow: 0 1px 0 #FFFFFF;
+	background-color: #F1F1F1;
+	background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+	background-image: -webkit-linear-gradient(bottom, rgb(236, 236, 236), rgb(249, 249, 249));
+}
+
+div.submitButton{
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.content_options .message {
+	margin-top: 30px
+}
+
+div.subsection{
+	width: 85%;
+	float: left;
+}
+
+div.option_text{
+	width: 49%;
+	padding: 1em 0 0 0;
+	float: left;
+}
+
+.option_text input[type="text"]{
+	width: 100%;
+	font-size:12px;
+	padding:4px;
+	color:#333;
+	line-height:1em;
+	background:#fff;
+}
+
+.option_text  input[type="text"].error{
+	background-color: #ffebe8;
+	border-color: #c00;
+}
+
+.option_text  input[type="text"]:focus{
+	background:#F0FAFF;
+	border-color: #999;
+}
+
+
+div.arrows{
+	font-size: 20px;
+	padding: .8em 0 0 0;
+	width: 2%;
+	float: left;
+	text-align: center;
+	color:#555555;
+}
+
+div.option_regex_header,
+div.option_replace_header{
+	width: 49%;
+	padding: 0;
+	float: left;
+	text-align: center;
+	color:#555555;
+}
