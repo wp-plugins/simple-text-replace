@@ -20,4 +20,8 @@ function is_regex($pattern){
 	return $valid;
 }
 
+function fixPattern($pattern){
+	return str_replace("\\\\", "\\", $pattern);
+}
+
 ?>

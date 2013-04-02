@@ -236,8 +236,8 @@ function str_settings_page() {
 							break;
 
 						case 'regex_text':
-						
-							if (is_regex('/'.get_settings($value['id']).'/'))
+
+							if (is_regex(fixPattern('/'.get_settings($value['id']).'/')))
 								$css_class = '';
 							else
 								$css_class = ' class="error"';
@@ -343,7 +343,7 @@ function str_settings_page() {
 	function check_regex($option_type, $option_index){
 	
 		$val = get_settings('str_'.$option_type.'_find_'.$option_index);
-		$pattern = '/'.$val.'/';
+		$pattern = fixPattern('/'.$val.'/');
 
 		if (!is_regex($pattern))
 			if($option_type == 'title')

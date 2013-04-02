@@ -38,6 +38,7 @@
 	function apply_regex_option($content, $option_type, $option_index){
 	
 		$pattern = get_settings('str_'.$option_type.'_find_'.$option_index);
+		$pattern = fixPattern($pattern);
 		
 		if($pattern != ''){
 			$pattern = '/'.$pattern.'/';
@@ -49,5 +50,5 @@
 
 		return $content;
 	}
-
+	
 ?>
